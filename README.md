@@ -1,13 +1,8 @@
-<h1>Migration Database</h1>
-
-- Menambahkan field pada database, #php artisan migrate
-
-
 <h1>Rules</h1>
 
 Git Clone (Download File)
 
-- Git clone untuk mendownload project, # git clone
+- Git clone untuk mendownload project, # git clone lalu paste link github
 
 
 Git Add (Menambah File)
@@ -29,7 +24,19 @@ Git Push (Upload ke Project)
 
 - Lalu push project, # git push -u origin master
 
+<h1>Membuat Database MySQL</h1>
+
+- nama database data_rs
+
+<h1>Migration Database</h1>
+
+- Menambahkan field pada database, #php artisan migrate
 
 Git Pull (Refresh/Update)
 
 - Pull digunakan untuk mengupdate project local yang telah diubah oleh orang lain, # git pull origin
+
+<h1>Check API</h1>
+
+- Mengecek apakah API berfungsi # php artisan serve
+- http://127.0.0.1:8000/api/getApi
